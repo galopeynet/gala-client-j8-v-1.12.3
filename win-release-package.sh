@@ -1,11 +1,11 @@
 #!/bin/bash
-VERSION=$1
+VERSION=$1-1.12.3
 if [ -x ${VERSION} ];
 then
 	echo VERSION not defined
 	exit 1
 fi
-APPLICATION="nxt-clone"
+APPLICATION="gala"
 PACKAGE=${APPLICATION}-client-${VERSION}
 echo PACKAGE="${PACKAGE}"
 CHANGELOG=nxt-clone-client-${VERSION}.changelog.txt
