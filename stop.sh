@@ -1,6 +1,6 @@
 #!/bin/sh
 
-APPLICATION="nxt-clone"
+APPLICATION="gala"
 
 DIR=`dirname "$0"`
 cd "${DIR}"
@@ -26,7 +26,7 @@ if [ -e ${NXT_PID_FILE} ]; then
         STATUS=$?
     done
     rm -f ${NXT_PID_FILE}
-    echo "Nxt server stopped"
+    echo "Gala server stopped"
 fi
 
 cd - > /dev/null

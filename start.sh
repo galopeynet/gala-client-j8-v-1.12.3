@@ -5,13 +5,13 @@ echo "** DEPRECATED: Use 'run.sh --desktop' instead **"
 echo "***********************************************"
 sleep 1
 
-APPLICATION="nxt-clone"
+APPLICATION="gala"
 if [ -e ~/.${APPLICATION}/nxt.pid ]; then
     PID=`cat ~/.${APPLICATION}/nxt.pid`
     ps -p $PID > /dev/null
     STATUS=$?
     if [ $STATUS -eq 0 ]; then
-        echo "Nxt server already running"
+        echo "Gala server already running"
         exit 1
     fi
 fi
