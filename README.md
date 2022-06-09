@@ -9,9 +9,11 @@ GALA is a cryptocurrency to make the world a better place.
 ## Get it! ##
 
   - *dependencies*:
-    - *general* - Java 8
-    - *Ubuntu* - `https://tecadmin.net/install-java-ubuntu-20-04/
-    - *Debian* - `https://docs.datastax.com/en/jdk-install/doc/jdk-install/installOpenJdkDeb.html`
+    - *general* - Java 8 
+    - *Windows* - https://www.java.com/
+    - [![Why is Java 8 recommended](https://www.teststrana.com/images/java.jpg)](https://www.java.com/en/download/why-java-8-recommended.html)
+    - *Ubuntu* - https://tecadmin.net/install-java-ubuntu-20-04/
+    - *Debian* - https://docs.datastax.com/en/jdk-install/doc/jdk-install/installOpenJdkDeb.html
     - *FreeBSD* - `pkg install openjdk8`
 
 ----
